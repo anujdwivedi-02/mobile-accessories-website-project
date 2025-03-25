@@ -1,0 +1,111 @@
+*{
+    font-family: 'Times New Roman', Times, serif;  
+}
+body{
+    background-color: #edeaea;
+}
+.header{
+    background-color: #3e0502;
+    font-family:'Times New Roman', Times, serif;
+}
+.header ul{
+    list-style-type: none;
+}
+.header ul li{
+    display: inline;
+}
+.nav{
+    background:linear-gradient(white,#e7bdaa);
+
+}
+#navbarSupportedContent ul li a{
+    color:#431b1b;
+
+}
+#navbarSupportedContent ul li a:hover{
+    color:#3e0502;
+    border-bottom:3px solid #431b1b;
+    font-size:larger;
+
+}
+.slider{
+    background-color: #e7bdaa;
+}
+.services{
+    background: linear-gradient(90deg,#6f4d4d,#e7bdaa,#431b1b);
+    
+}
+.services h1{
+    color:#431b1b;
+    font-weight: bold;
+}
+.cardtext1{
+    text-shadow:0px 5px 15px aliceblue;
+    color: #410505;
+    font-weight: bolder;
+
+}
+.card1{
+    box-shadow: 2px 3px 3px 3px rgb(101, 2, 2);
+}
+.card1:hover{
+    box-shadow: 2px 3px 3px 3px rgb(158, 98, 98);
+    transform: scale(1.25);
+    transition: 2.5s;
+}
+.cont ul li{
+    list-style-type: none;
+}
+.footer{
+    background-color:#220808 ;
+    color: aliceblue;
+}
+.wapply{
+    background-color: rgb(234, 195, 179);
+}
+.wapply h1{
+    color: #3e0502;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.gradborder{
+    border-right: 3px solid #3e0502;
+    color:aliceblue;
+}
+.gradsymbol{
+    background-color:#431b1b;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.happly{
+    border-left: 5px solid #3e0502;
+    color: #370604;
+}
+.happlyprocess{
+    background-color: #ebdbdb;
+    color: #3e0502;
+}
+.happlyprocess h2{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.happlyprocess1{
+    background-color: #370604;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.happlyprocess2{
+    color: #370604;
+}

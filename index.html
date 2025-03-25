@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+  <link rel="icon" href="{% static 'images/logo1.jpg' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Deltaware Solution</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    
+  <!-- ==========================================Header start========================================= -->
+  <div class="row header text-white"> 
+            <div class="col-md-9 fw-bold">
+               <i> Do Your Training under the guidance of Experts</i>
+            </div>
+            <div class="col-md-3 text-end">
+                <ul class="fw-bold fs-5"> 
+                    <li class="me-2"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="me-2"><i class="fa-brands fa-whatsapp"></i></li>
+                </ul>
+            </div>
+  </div>
+  <!-- ===============================================header end======================================= -->
+
+  <!-- ===============================================navbar start===================================== -->
+
+  <div class="row nav">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="{% static 'images/logo1.jpg' %}" class="" alt="" style="height:7vh;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold fs-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Enroll </a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search"> 
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline" type="submit"><i class="fa-search"></i></button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ======================================================navbar end================================== -->
+
+  <!-- ====================================================SLIDER=========================================== -->
+
+  <div class="row slider text-white p-5">
+    <div class="col-md-12 text-center p-3">
+      <span class=" fs-1 fw-bold" style="color: #431b1b;">Welcome to DeltawareSolution Pvt Ltd.</span>
+      <p class="fw-bold fs-5"  style="color: #431b1b;">Your partner in Cybersecurity and Web Application Development</p>
+      <img src="{% static 'images/lock.gif' %}" alt="" height="120vh">
+    </div>
+  </div>
+
+  <!-- =====================================================slider end====================================== -->
+
+  <!-- ===============================================card start=================================================-->
+
+    <div class="container fw-bold">
+      <div class="row mt-5 text-white rounded-pill services">
+        <div class="col-md-12 text-center">
+         <h1>Our Services</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row text-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-4  cardtext1 ">
+          <img src="{% static 'images/pic6.png' %}" alt="" height="180vh" style="border-radius: 100%;" class="mb-3 card1">
+          <h2 class=" cardtext1">Web Development</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="{% static 'images/pic5.png' %}" alt="" height="190vh" style="border-radius: 100%;" class="mb-3 card1">
+          <h2 class=" cardtext1">Cybersecurity</h2>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <div class="row text-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 ">
+          <img src="{% static 'images/pic2.png' %}" alt="" height="180vh" class="rounded-circle  mb-3 card1">
+          <h2 class=" cardtext1">AI/ML</h2>
+        </div>
+        <div class="col-md-4  ">
+          <img src="{% static 'images/pic4.png' %}" alt="" height="173vh" class="rounded-circle mb-3 card1">
+          <h2 class=" cardtext1">Cloud Computing</h2>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+  <!-- ==================================================cards end=================================================-->
+
+  <!-- ===================================================Who Can Participate========================================== -->
+   <div class="row mt-5 services py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11 m-auto py-3 mt-3 rounded-4 wapply">
+          <div class="row">
+            <div class="gradsymbol mt-3 text-white">
+              <i class="fa-solid fa-user-graduate fw-bold fs-1"></i>  
+            </div>
+          </div>
+           <h1 class="text-center">Who Can Participate</h1>
+            <div class="row text-center fs-3 mt-2 mt-5 fw-bold">
+              <div class="col-md-2"></div>
+              <div class="col-md-2  gradborder"> BTECH</div>
+              <div class="col-md-2 gradborder">BCA</div>
+              <div class="col-md-2  gradborder">MCA</div>
+              <div class="col-md-2  gradborder">OTHERS</div>
+            </div>
+           <p></p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <!-- ===================================================Who Can Participate===================================================== -->
+
+  <!-- =========================================================How To Apply================================================ -->
+
+  <div class="row mt-5">
+    <div class="happly">
+      <h2 class="fw-bold">How To Apply</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container happlyprocess  mt-3">
+      <div class="row  mt-3">
+        <div class="col-md-2 text-center happlyprocess1 ">
+          <h2>Step1</h2>
+        </div>
+        <div class="col-md-10 text-start mt-5 happlyprocess2 fs-3 fw-bold">
+          <Span>Register or enroll on the portal for training.</Span>
+        </div>
+      </div>
+
+      <div class="row mt-3 mb-3 ">
+        <div class="col-md-10 text-end mt-5 happlyprocess2 fs-3 fw-bold">
+          <Span>Join the online talk about the online training.</Span>
+        </div>
+        <div class="col-md-2 text-center happlyprocess1 ">
+          <h2>Step2</h2>
+        </div>
+        
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-2 text-center happlyprocess1 ">
+          <h2>Step3</h2>
+        </div>
+        <div class="col-md-10 text-start mt-5 happlyprocess2 fs-3 fw-bold">
+          <Span>Do your traing, complete your project & get certified.</Span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===========================================================how to apply=============================================== -->
+
+  <!-- ==========================================================footer start=================================================== -->
+
+<div class="row footer mt-5">
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-3 cont">
+        <h3 class="fw-bold"> Contacts</h3>
+        <p>If you need immediate assistance or <br> have any further questions, feel free to call us at given number below
+           and you can also send me a mail on the given mail id.</p>
+
+        <h5>Call Us:</h5>
+        <ul class="fw-bold">
+          <li><i class="fa-solid fa-phone"></i> +91 6306934956 </li>
+          <li> <i class="fa-solid fa-envelope"></i> workforanuj1411@gmail.com</li>
+        </ul>
+        <h5>Mail Us:</h5>
+        <ul class="fw-bold">
+          <li> <i class="fa-solid fa-envelope"></i> workforanuj1411@gmail.com</li>
+        </ul>
+
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <h3 class="fw-bold mb-3">Follow Us</h3>
+
+        <i class="fa-brands fa-whatsapp fs-2 me-4"></i>
+        <i class="fa-brands fa-square-facebook fs-2 me-4"></i>
+        <i class="fa-brands fa-instagram fs-2"></i>
+
+        <!-- <h4 class="fw-bold">Payment</h4>
+        <img src="images/Visa-Symbol.png" height="35px" alt="">
+        <img src="images/google-pay-logo-transparent-free-png.webp" height="150px"  alt="">
+        <img src="images/rupay.jpeg" height="50px"  alt="">
+        <img src="images/paytm.jpeg" height="50px"  alt=""> -->
+
+      </div>
+      <div class="col-md-3">
+        <i class="fw-bold fs-4">
+          "From Coding to Security, Supporting You at Every Step."
+        </i>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>
+
+  <!-- ===========================================================footer end===================================================== -->
+    
+  </div>
+
+  <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
